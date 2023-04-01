@@ -23,11 +23,11 @@ The script will log the status of the Celestia process and notify you through a 
 - Execute the script by running the command `./celestia_monitor.sh`.
 
 
-CONFIG: 
-`WEBHOOK_URL`: The URL of the webhook to send notifications to.
-`CELESTIA_CMD`: The command to start the Celestia light node process.
-`WAIT_TIME`: The time to wait (in seconds) before checking the Celestia process status again.
-`RELAUNCH_WAIT_TIME`: The time to wait (in seconds) before attempting to relaunch Celestia after a failure.
+# CONFIG: 
+- `WEBHOOK_URL`: The URL of the webhook to send notifications to.
+- `CELESTIA_CMD`: The command to start the Celestia light node process.
+- `WAIT_TIME`: The time to wait `in seconds` before checking the Celestia process status again.
+- `RELAUNCH_WAIT_TIME`: The time to wait `in seconds` before attempting to relaunch Celestia after a failure.
 
 
 
